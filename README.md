@@ -8,7 +8,7 @@ Special thanks to the Visionary/K4SM Game Development team for taking the projec
 + Kevin Chen <Lead Game/Engine Programmer>
 + Swarnava (Neel) Banerjee <Game Designer>
 + Frank (Jiexin) Liu <Visual Designer>
-+ Adnan Alam <Programmer>
++ Adnan Alam <Programmer> 
 
 _______________
 **This project is no longer being developed or supported.**
