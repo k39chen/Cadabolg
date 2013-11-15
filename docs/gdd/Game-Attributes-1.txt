@@ -1,0 +1,86 @@
+//Attributes//
+
+- Strength (STR): Measure of the Actor's ability to deal Physical Damge through
+                  weapon attacks/ skills to target(s).
+- Defense (DEF): Measure of the Actor's ability to resist Physical Damage from
+                 weapon attacks/ skills of enemies.
+- Agility (AGI): Measure of the Actor's ability to land Physical attack on an
+                 target(s).
+- Evasion (EVA): Measure of the Actor's ability to avoid Physical attack from
+                 an enemy.
+- Inteligence (ITL): Measure of the Actor's ability to deal Magical Damage
+                     through weapon attacks/skills to target(s).
+- Wisdom (WIS): Measure of the Actor's ability to resist Magical Damage from
+                weapon attacks/skills of enemies.
+- Cognition (COG): Measure of the Actor's ability to successfully execute a
+                   Magical attack on target(s).
+- Ego (EGO): Measure of an Actor's ability to absorb a Magical attack from an
+             enemy.
+
+//Elements//
+
+- Light (LT)
+- Air (AR)
+- Water (WT)
+- Wood (WD)
+- Earth (EH)
+- Fire (FR)
+- Spark (SK)
+- Dark (DK)
+
+LT opposes DK
+AR opposes EL
+WT opposes SK
+WD opposes EH
+
+//Status Effects//
+Actors can have one status effect at a time. The current status effect can be
+seen on the Actor's mugshot on the HUD. The default status effect is Normal.
+An Actor induces a status effect if they are the target of a skill which 
+inflicts it. The chance of getting a status effect is random, but based on
+the difference between the Actor and the Target's potency and immunity of said
+status effect respectively. A status effect can be cancelled (returning the
+Actor to Normal) if the opposing status effect is induced.
+
+Normal (NOR): Actor has no change.
+
+Rejuvenate (REJ): Actor gains X HP/sec.
+Energize (ENE): Actor gains X MP/sec.
+Adrenaline (ADR): Actor has double Physical hits.
+Inspire (INS): Actor has double Magical hits.
+Quickstep (QCK): Actor can move faster on the map.
+
+Toxin (TOX): Actor loses X HP/sec.
+Delirium (DEL): Actor loses X MP/sec.
+Fracture (FRA): Actor can't do Physical attacks.
+Speechless (SPC): Actor can't do Magic attacks.
+Immobilize (IBZ): Actor can't move on the map.
+
+Knock Out (TKO): Actor can't use attacks/skills or move.
+
+REJ opposes TOX
+ENE opposes DEL
+ADR opposes FRA
+INS opposes SPC
+QCK opposes IBZ
+
+//Buffs//
+Buffs cause a temporary increase or decrease in Actor attributes. An Actor can
+have upto 4 Buffs at any point. Buffs of the same kind can be stacked for
+greater effect. If an Actor already has 4 Buffs and gains a new buff; the first
+buff is discarded, remaining buffs shift one place to the left and the new buff
+occupies the 4th slot.
+
+STR/DEF/AGI/EVA up 25%
+ITL/WIS/COG/EGO up 25%
+STR/AGI/ITL/COG up 25%
+DEF/EVA/WIS/EGO up 25%
+STR/EVA/ITL/EGO up 25%
+DEF/AGI/WIS/COG up 25%
+
+STR/DEF/AGI/EVA down 25%
+ITL/WIS/COG/EGO down 25%
+STR/AGI/ITL/COG down 25%
+DEF/EVA/WIS/EGO down 25%
+STR/EVA/ITL/EGO down 25%
+DEF/AGI/WIS/COG down 25%

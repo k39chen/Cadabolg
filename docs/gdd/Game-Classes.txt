@@ -1,0 +1,17 @@
+//Zekarian Roles//
+- Druid    : Good vs. Golems, Bad vs. Humans
+- Warlock  : Debuffs Enemies and gives Negative Status Effects
+- Tamer    : Enhances Monster Performance
+- Ninja    : Deals DOT Damage at medium range
+
+//Neutral Roles//
+- Recon    : Attacks enemies from near
+- Sniper   : Attacks enemies from afar
+- Medic    : Heals, Revives and cures Ailments
+- Tank     : Draws and absorbs enemy attacks
+
+//Masari Roles//
+- Hunter   : Good vs. Monsters, Bad vs. Humans
+- Chemist  : Buffs Allies and gives Positive Status Effects
+- Mechanic : Enhances Golem Performance
+- Bomber   : Deals AOE Damage at medium range

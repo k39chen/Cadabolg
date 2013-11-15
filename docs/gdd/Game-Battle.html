@@ -1,0 +1,277 @@
+<html>
+	<head>
+		<title>Battle System (DETAILED)</title>
+	</head>
+	<body>
+	<h1><a name="top">Battle System</a></h1>
+		<div class="content">
+		<h2>Contents</h2>
+			<ul>
+				<li><a href="#1.0">1.0 Overview</a></li>
+				<ul>
+					<li><a href="#1.1">1.1 Controls</li>
+				</ul>
+				<li><a href="#2.0">2.0 HUD Elements</a></li>
+				<ul>
+					<li><a href="#2.1">2.1 Leader Window</a></li>
+					<li><a href="#2.2">2.2 Ally Window</a></li>
+					<li><a href="#2.3">2.3 Metasync Gauge</a></li>
+					<li><a href="#2.4">2.4 Combo Counter</a></li>
+					<li><a href="#2.5">2.5 Pause Menu</a></li>
+				</ul>
+				<li><a href="#4.0">3.0 Mechanics</a></li>
+					<ul>
+						<li><a href="#3.1">3.1 Conditions</a></li>
+						<li><a href="#3.2">3.2 HP/MP Synergy</a></li>
+						<li><a href="#3.3">3.3 Skills</a></li>
+						<li><a href="#3.4">3.4 Items</a></li>
+						<li><a href="#3.5">3.5 Tactics</a></li>
+						<li><a href="#3.6">3.6 Junction</a></li>
+					</ul>
+			</ul>
+		</div>
+		<div class="content">
+			<h2><a name="1.0">1.0 Overview</a></h2>
+			<p>
+			This section of the Cadabolg GDD is to inform the reader about the
+			various procedures, mechanics and assets used in Cadabolg's Battle
+			System.
+			</p>
+				<h3><a name="1.1">1.1 Controls</a></h3>
+				<img src="files/control.png" width="675" height="216">
+				<p></p>
+				<table border="1" cellpadding="6">
+					<tr>
+						<th>Movement</th>
+						<th>Action</th>
+						<th>A-Ability</th>
+						<th>S-Ability</th>
+					</tr>
+					<tr>
+						<td>
+						Up Arrow: Move Up<br/>
+						Left Arrow: Move Left<br/>
+						Right Arrow: Move Right<br/>
+						Down Arrow: Move Down<br/>
+						</td>
+						<td>
+						Z: Confirm/Attack<br/>
+						X: Cancel/Block<br/>
+						Space: Switch Leader<br/>
+						Enter: Pause -> Menu<br/>
+						</td>
+						<td>
+						A + Up: A-Ability#1<br/>
+						A + Left: A-Ability#2<br/>
+						A + Right: A-Ability#3<br/>
+						A + Down: A-Ability#4<br/>
+						</td>
+						<td>
+						S + Up : S-Ability #1<br/>
+						S + Left: S-Ability #2<br/>
+						S + Right: S-Ability #3<br/>
+						S + Down: S-Ability #4<br/>
+						</td>
+					</tr>
+				</table>
+				<p>
+				Note: A & S are sequential, not simultaneous.
+				</p>
+				<br/>
+				<a href="#top">[return to top]</a>
+		</div>
+		<div class="content">
+			<h2><a name="2.0">2.0 HUD Elements</a></h2>
+			<p>
+			This section covers the different pieces of the HUD the player must pay attention to during battle.
+			</p>
+				<h3><a name="2.1">2.1 Leader Window</a></h3>
+				<img src="files/leaderwin.png" width="620" height="260">
+				<p>
+				Displays information of the Party Leader. Consists of the HP/MP Ring, Actor Mugshot,
+				Action Skills, and Support Skills. Located at the bottom-center of the HUD.
+				</p>
+				<a href="#top">[return to top]</a>
+				
+				<h3><a name="2.2">2.2 Ally Window</a></h3>
+				<img src="files/allywin.png" width="204" height="204">
+				<p>
+				Display information of each Ally. Consists of the HP/MP Ring and Actor Mugshot. The 
+				Ally Window is arranged based on party-order, which means that the top-most Ally will
+				rotate in as Leader if the player chooses. Located at the top-right corner of the screen.
+				</p>
+				<a href="#top">[return to top]</a>
+				
+				<h3><a name="2.3">2.3 Metasync Gauge</a></h3>
+				<p>
+				A tiered gauge that fills up gradually during the course of battle. Once a tier is reached, it becomes
+				possible to perform Junction attacks (see Junction) with different members of the party on a selected enemy.
+				The Metasync Gauge fills up faster if the party is performing well or struggling in battle making its use a 
+				way for the player to turn the tides of the battle in the party's favor. Located at the top-left corner of
+				the screen.
+				</p>
+				<a href="#top">[return to top]</a>
+				
+				<h3><a name="2.4">2.4 Combo Counter</a></h3>
+				<p>
+				A text message that pops up to inform the player of how many successful consecutive attacks their party has
+				performed on an enemy. The higher the number of the CC, the more the metasync gauge will fill.
+				</p>
+				<a href="#top">[return to top]</a>
+				
+				<h3><a name="2.5">2.5 Pause Menu</a></h3>
+				<p>
+				A menu system that overlays the screen when the player chooses to pause the game. This gives access to Items,
+				Tactics and Junction during battle. The player navigates through the icons using the directional keys and can
+				select an entity with the "Confirm" button or return to the hub with the "Cancel" button.
+				</p>
+				<a href="#top">[return to top]</a>
+		</div>
+		
+		<div class="content">
+			<h2>3.0 Mechanics</h2>
+			<p>
+			</p>			
+			<h3>3.1 Conditions</h3>
+			<p>
+			Actors can have one Condition at a time. The current Condition can be seen 
+			on the Actor's mugshot on the HUD. The default Condition is Normal. An Actor
+			induces a Condition if they are the target of a skill which inflicts it. The
+			chance of getting a Condition is random, but based several determined factors.
+			</p>
+			
+			<table border = "1">
+				<tr>
+					<th>Icon</th>
+					<th>Name</th>
+					<th>Abbr.</th>
+					<th>Description</th>
+				</tr>
+				<tr>
+					<td><img src="" alt=""></td>
+					<td>Normal</td>
+					<td>NOR</td>
+					<td>No changes to Actor status.</td>
+				</tr>
+				<tr>
+					<td><img src="files/REJ.png" alt=""></td>
+					<td>Rejuvenate</td>
+					<td>REJ</td>
+					<td>Actor regains X% HP per second.</td>
+				</tr>
+				<tr>
+					<td><img src="" alt=""></td>
+					<td>Energize</td>
+					<td>ENE</td>
+					<td>Actor regains X% MP per second.</td>
+				</tr>
+				<tr>
+					<td><img src="" alt=""></td>
+					<td>Adrenaline</td>
+					<td>ADR</td>
+					<td>Actor deals double the Physical hits.</td>
+				</tr>
+				<tr>
+					<td><img src="" alt=""></td>
+					<td>Inspire</td>
+					<td>INS</td>
+					<td>Actor deals double the Magical hits.</td>
+				</tr>
+				<tr>
+					<td><img src="" alt=""></td>
+					<td>Quickstep</td>
+					<td>QCK</td>
+					<td>Actor moves faster on the map.</td>
+				</tr>
+				<tr>
+					<td><img src="files/TOX.png" alt=""></td>
+					<td>Toxin</td>
+					<td>TOX</td>
+					<td>Actor loses X% HP per second.</td>
+				</tr>
+				<tr>
+					<td><img src="" alt=""></td>
+					<td>Delirium</td>
+					<td>DEL</td>
+					<td>Actor loses X% MP per second.</td>
+				</tr>
+				<tr>
+					<td><img src="" alt=""></td>
+					<td>Fracture</td>
+					<td>FRA</td>
+					<td>Actor is unable to do Physical attacks.</td>
+				</tr>
+				<tr>
+					<td><img src="" alt=""></td>
+					<td>Speechless</td>
+					<td>SPC</td>
+					<td>Actor is unable to do Magical attacks.</td>
+				</tr>
+				<tr>
+					<td><img src="" alt=""></td>
+					<td>Immobilize</td>
+					<td>IBZ</td>
+					<td>Actor is unable to move on the map.</td>
+				</tr>
+				<tr>
+					<td><img src="" alt=""></td>
+					<td>Knockout</td>
+					<td>TKO</td>
+					<td>If Actor's HP = 0, the Actor is unable to act until revived. </td>
+				</tr>
+				<tr>
+					<td><img src="" alt=""></td>
+					<td>Berserk</td>
+					<td>BSK</td>
+					<td>If Actor's MP = 0, control is lost over Actor until calmed.</td>
+				</tr>
+			</table>
+			
+			<p>
+			A Condition can be canceled (returning the Actor to Normal) if the 
+			opposing Condition is induced.<br/>
+			REJ opposes TOX.<br/>
+			ENE opposes DEL.<br/>
+			ADR opposes FRA.<br/>
+			INS opposes SPC.<br/>
+			OCK opposes IBZ.<br/>
+			</p>
+			
+			<a href="#top">[return to top]</a>
+			
+			<h3>3.2 HP/MP Synergy</h3>
+			<p>
+			If an Actor has taken damage on their HP/MP, the player can choose to use that damage
+			</p>
+			<a href="#top">[return to top]</a>
+			
+			<h3>3.3 Skills</h3>
+			<p>
+			Abilities 
+			</p>
+				<h4>Action</h4>
+				<p>
+				</p>
+				<h4>Support</h4>
+				<p>
+				</p>
+			<a href="#top">[return to top]</a>
+			
+			<h3>3.4 Items</h3>
+			<p>
+			</p>
+			<a href="#top">[return to top]</a>
+			
+			<h3>3.5 Tactics</h3>
+			<p>
+			</p>
+			<a href="#top">[return to top]</a>
+			
+			<h3>3.6 Junction</h3>
+			<p>
+			</p>
+			<a href="#top">[return to top]</a>
+		</div>
+		
+	</body>
+</html>

@@ -1,0 +1,53 @@
+//Greifer//
+Spellblade: Status Effect + Weapon Atk
+
+//Tank//
+
+
+//Sniper//
+
+//Splasher//
+Feng Shui: Allows you to use terrain to your advantage.
+Onmyodo: Allows you to summon Shikigami within a zone.
+Zodiac
+- Aquarius
+- Pisces
+- Aries
+- Taurus
+- Gemini
+- Cancer
+- Leo
+- Virgo
+- Libra
+- Scorpio
+- Sagittarius
+- Capricorn
+
+//Healer//
+Mantra
+Glamour
+Tarot
+Necromancy
+
+//Nuker//
+Gem Magic
+- 
+
+Theurgy
+- Ain
+- Ain Soph
+- Ain Soph Aur
+- Tzimtzum
+- Keter
+- Chochma
+- Binah
+- Daat
+- Chesed
+- Gevurah
+- Tiferet
+- Netzach
+- Hod
+- Yesod
+- Malchut
+
+Goetic

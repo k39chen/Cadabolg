@@ -1,0 +1,58 @@
+//Roles//
+
+
+
+Covert: Sabotage, Camoflage, Sniper, Slayer
+Fixer : Healing, Refueling, Repairing
+
+
+//Organization//
+The Resistance is divided into two pools of Units: Vanguard and Reserves. When
+Units are recruited, they are put into the Reserves where they automatically 
+train until the player sends them on a mission or brings them into the Vanguard 
+to place in a unit. The Reserves initially have the capacity to hold 5 Units, 
+but this can be increased by bringing in materials to improve Living Quarters 
+at the base.
+The Vanguard can consist of upto 10 Teams each lead by a Primary Character that
+is recruited in the course of the narrative. Initially, you'll have 7 Characters
+from [Squad 2], but over time you may find/lose other PCs. Every Team consists 
+of upto four Units including the PC Leader, so the maximum size of the Vanguard
+is 40.
+Team Building is an important consideration for players. Units of similiar 
+Roles will enhance their abilities. For example, 2 Medics can revive a fallen 
+Team (on the Map) with 50% HP/MP while 1 Medic can only do revive for 25% HP/MP.
+However, team with different Roles are more adaptable to needs of the player.
+For example, a team consisting of a Marksman, Saboteur and Medic can take out
+enemies from afar, disable enemy devices and rescue fallen comrades all at the
+same time.
+Morale is a mechanic that can determine a Team's collective performance. If a
+team is kept together over a long time, they will have a high morale. This is
+reflected in combat by a faster Synchro Gauge and better performance. If an 
+Actor is rotated in, some Morale may be lost but after some time it will be
+grow again. If a Team is completely disbanded, all Morale will be lost and have
+to be built up again.
+
+//Missions//
+
+In [Cadabolg], players will frequently find themselves in combat scenarios.
+They must use a combination of strategic thinking (in Mission Mode) and
+fast reflexes (in Battle Mode) to complete Missions with a low casualty rate.
+
+Missions are displayed in the different parts of the city on the Map Screen
+by the corresponding icon. Missions are completed in order to achieve in-game
+objectives. For example, an in-game objective is to weaken Zekarian magical
+capabilities. This is achieved by sabotaging the Mana Generators in the
+Zekarian occupied area. Once all Mana Generators are destroyed, the objective
+is considered complete and story moves on. Note: Not all missions are geared
+towards accomplishing objectives. These can be considered side-missions.
+
+//Mission Types//
+- Recon: Send 1-4 units to check enemy unit types and locations (if hiding) in 
+         an area before a mission. More units = More information to plan with, 
+         but greater risk of getting caught. RESERVES ONLY.
+
+- Inquiry: Send 1-4 units to get information from locals in an area about 
+           situation in an area. Reveals new Missions 
+           
+- Raid: Infiltration into an established facility to gain access to supplies.
+           

@@ -1,0 +1,21 @@
+Primary:
+Light
+Dark
+Fire
+Water
+Earth
+Air
+
+Secondary:
+Fire + Air = Spark
+Fire + Earth = Metal
+Water + Earth = Wood
+Water + Air = Ice
+
+//Zekarian Regions//
+Luxon : Plains. 
+Aeron : Hurricanes.
+Eaon  : Marshes. Floods.
+Ierdon: Rainforest.
+Fyron : Pompei. Volcanoes.
+Umbron: 

@@ -1,0 +1,69 @@
+//Attributes//
+Strength     (STR): Ability to deal Physical damage.
+Defense      (DEF):
+Accuracy     (ACC):
+Evasion      (EVA):
+Intelligence (ITL):
+Wisdom       (WSM):
+Cognition    (COG):
+Stability    (SBL):
+
+//Elementals//
+Light (LIT): 
+Air   (AIR): 
+Water (WAT): 
+Wood  (WOD): 
+Earth (EAR): 
+Fire  (FIR): 
+Spark (SPK): 
+Dark  (DRK): 
+
+-Affinities-
+Light (LIT): Ability to deal LIT damage.
+Air   (AIR): Ability to deal AIR damage.
+Water (WAT): Ability to deal WAT damage.
+Wood  (WOD): Ability to deal WOD damage.
+Earth (EAR): Ability to deal EAR damage.
+Fire  (FIR): Ability to deal FIR damage.
+Spark (SPK): Ability to deal SPK damage.
+Dark  (DRK): Ability to deal DRK damage.
+
+-Resistances-
+Light (LIT): Ability to resist LIT damage.
+Air   (AIR): Ability to resist AIR damage.
+Water (WAT): Ability to resist WAT damage.
+Wood  (WOD): Ability to resist WOD damage.
+Earth (EAR): Ability to resist EAR damage. 
+Fire  (FIR): Ability to resist FIR damage.
+Spark (SPK): Ability to resist SPK damage.
+Dark  (DRK): Ability to resist DRK damage.
+
+//Ailments//
+Toxin    (TOX): Actor loses X HP/sec.
+Delirium (DEL): Actor loses X MP/sec.
+Fracture (FRA): Actor can't do Physical Skills.
+Silence  (SIL): Actor can't do Magical skills.
+Slow     (SLO): Actor can't move as fast on the map.
+Blind    (BLD): Actor can't hit enemies.
+Aggro    (AGR): Actor becomes the source of enemy aggro.
+Charm    (CHM): Actor switches sides temporarily.
+
+-Potencies-
+Toxin    (TOX): Ability to inflict TOX on enemy.
+Delirium (DEL): Ability to inflict DEL on enemy.
+Fracture (FRA): Ability to inflict FRA on enemy.
+Silence  (SIL): Ability to inflict SIL on enemy.
+Slow     (SLO): Ability to inflict SLO on enemy.
+Blind    (BLD): Ability to inflict BLD on enemy.
+Aggro    (AGR): Ability to inflict AGR on enemy.
+Charm    (CHM): Ability to inflict CHM on enemy.
+
+-Immunities-
+Toxin    (TOX): Ability to resist TOX from enemy.
+Delirium (DEL): Ability to resist DEL from enemy.
+Fracture (FRA): Ability to resist FRA from enemy.
+Silence  (SIL): Ability to resist SIL from enemy.
+Slow     (SLO): Ability to resist SLO from enemy.
+Blind    (BLD): Ability to resist BLD from enemy.
+Aggro    (AGR): Ability to resist AGR from enemy.
+Charm    (CHM): Ability to resist CHM from enemy.

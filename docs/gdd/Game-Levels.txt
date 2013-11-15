@@ -1,0 +1,13 @@
+Agent Amaryllis - In charge of Internal Security.
+Agent wolfbane  - In charge of External Security: Grounds.
+Agent Trillium  - In charge of External Security: Lake.
+Agent Hellebore - In charge of Internal Security.
+
+Acropolis Trade and Development Center is built on an artificial island over 
+Lake Leto as an extension to the main city of Acropolis serving as exhbition
+space for corporations to have events such as the annual Masari Economic Summit.
+The island is connected to the mainland by a single bridge and has piers to
+allow for boats to land. The development center is divided into two wings (East
+and West) consisting of exhbition halls and conference rooms on five levels. The
+center's electrical facilities are automated using a central computer located in
+the basement.
