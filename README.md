@@ -15,7 +15,7 @@ Special thanks to the Visionary/K4SM Game Development team for taking the projec
 
 License
 -------------
-Copyright (c) 2011 Kevin Chen.
+Copyright (c) 2010-2012 Visionary Games.
 
 _______________
 **This project is no longer being developed or supported.**
