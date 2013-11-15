@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\prolix">
+      <UniqueIdentifier>{29977640-e10d-43ce-903b-5fd9c90c3cf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prolix\common">
+      <UniqueIdentifier>{145d3935-7ff1-4180-aae4-57a66f201683}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prolix\engine">
+      <UniqueIdentifier>{e568be9d-82f6-4d81-b799-6b594316ad1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prolix\framework">
+      <UniqueIdentifier>{79e3a128-6b47-4a0c-8126-2c3ecd4baae5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prolix\interface">
+      <UniqueIdentifier>{85b6f5c6-183b-4e9c-9e53-0034d21e2c2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prolix\interface\include">
+      <UniqueIdentifier>{3fc2032c-e0ed-4d26-afa2-4f1504c7e824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prolix\interface\lib">
+      <UniqueIdentifier>{9cf91a06-fd0f-4a06-84ac-389abc6210cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prolix\interface\src">
+      <UniqueIdentifier>{2b168b07-b13e-415a-9108-c603a1b3eb14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prolix\framework\include">
+      <UniqueIdentifier>{1d712b0b-25ba-434e-9ac7-3fa1af695e1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prolix\framework\lib">
+      <UniqueIdentifier>{bff60229-0566-484b-b2fc-b38ce52fbbad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prolix\framework\src">
+      <UniqueIdentifier>{21d51424-c293-4897-9e85-18a7e3cdd4a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prolix\engine\include">
+      <UniqueIdentifier>{40706582-1881-440c-868c-e36f19e832f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prolix\engine\lib">
+      <UniqueIdentifier>{f1416687-269b-4e3f-a044-7d31fa9e5f87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prolix\engine\src">
+      <UniqueIdentifier>{bdc48399-bf33-44d3-8eb2-e78c6b148a6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prolix\common\include">
+      <UniqueIdentifier>{63679df6-fdae-43a4-acd6-f62a1f1b8eea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prolix\common\lib">
+      <UniqueIdentifier>{4fb188b6-de45-4321-8640-b448f2c238d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prolix\common\src">
+      <UniqueIdentifier>{4863e302-4cd7-4a5e-8430-486173a2c964}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game">
+      <UniqueIdentifier>{0beea7a3-3287-4edc-83bb-ddaf06db8005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\battle">
+      <UniqueIdentifier>{ef35b856-6a07-4c9c-86b0-6f54984a77ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\rpg">
+      <UniqueIdentifier>{1d5ed742-1c84-4160-8ce2-8b1afb5aedd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\rpg\include">
+      <UniqueIdentifier>{accaf6a7-a2e0-4960-9bc4-8bfef65baf11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\rpg\lib">
+      <UniqueIdentifier>{6d6c281c-f1a4-4455-b1d9-a6bfa587a056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\rpg\src">
+      <UniqueIdentifier>{f408accc-a3d3-405b-a419-997ced5d9960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\battle\include">
+      <UniqueIdentifier>{94cce6d0-0a9e-44d0-928c-6f431e45b59a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\battle\lib">
+      <UniqueIdentifier>{91314cf9-8dd4-469a-b104-4c1eed783fe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\battle\src">
+      <UniqueIdentifier>{e831b5ca-3c41-4350-841b-d3f7d944a246}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="prolix\interface\lib\libInterface.h">
+      <Filter>Source Files\prolix\interface\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\interface\include\cCursor.h">
+      <Filter>Source Files\prolix\interface\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\interface\include\cmpButton.h">
+      <Filter>Source Files\prolix\interface\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\interface\include\cmpDialogueBox.h">
+      <Filter>Source Files\prolix\interface\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\interface\include\cmpOptionList.h">
+      <Filter>Source Files\prolix\interface\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\interface\include\cmpTextbox.h">
+      <Filter>Source Files\prolix\interface\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\interface\include\cmpWindow.h">
+      <Filter>Source Files\prolix\interface\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\framework\lib\libFramework.h">
+      <Filter>Source Files\prolix\framework\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\framework\include\cAssetMgr.h">
+      <Filter>Source Files\prolix\framework\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\framework\include\cGame.h">
+      <Filter>Source Files\prolix\framework\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\framework\include\cGameDataMgr.h">
+      <Filter>Source Files\prolix\framework\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\framework\include\cLocMgr.h">
+      <Filter>Source Files\prolix\framework\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\framework\include\cLogMgr.h">
+      <Filter>Source Files\prolix\framework\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\framework\include\cPlayerDataMgr.h">
+      <Filter>Source Files\prolix\framework\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\framework\include\cPlayerPreferenceMgr.h">
+      <Filter>Source Files\prolix\framework\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\framework\include\cTweenMgr.h">
+      <Filter>Source Files\prolix\framework\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\engine\lib\libPrlxEngine.h">
+      <Filter>Source Files\prolix\engine\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\engine\include\PrlxEngine.h">
+      <Filter>Source Files\prolix\engine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\engine\include\PrlxGraphics.h">
+      <Filter>Source Files\prolix\engine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\engine\include\PrlxInput.h">
+      <Filter>Source Files\prolix\engine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\engine\include\PrlxMixer.h">
+      <Filter>Source Files\prolix\engine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\engine\include\PrlxPhysics.h">
+      <Filter>Source Files\prolix\engine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\engine\include\PrlxText.h">
+      <Filter>Source Files\prolix\engine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\common\lib\libCommon.h">
+      <Filter>Source Files\prolix\common\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\common\include\cAnimation.h">
+      <Filter>Source Files\prolix\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\common\include\cBaseObject.h">
+      <Filter>Source Files\prolix\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\common\include\cCartesian.h">
+      <Filter>Source Files\prolix\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\common\include\cConstants.h">
+      <Filter>Source Files\prolix\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\common\include\cEntity.h">
+      <Filter>Source Files\prolix\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\common\include\cFont.h">
+      <Filter>Source Files\prolix\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\common\include\cLabel.h">
+      <Filter>Source Files\prolix\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\common\include\cResources.h">
+      <Filter>Source Files\prolix\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\common\include\cSprite.h">
+      <Filter>Source Files\prolix\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\common\include\cTexture.h">
+      <Filter>Source Files\prolix\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\common\include\cTimer.h">
+      <Filter>Source Files\prolix\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\common\include\cTween.h">
+      <Filter>Source Files\prolix\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\common\include\cUrl.h">
+      <Filter>Source Files\prolix\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\common\include\xDraw.h">
+      <Filter>Source Files\prolix\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\common\include\xRandom.h">
+      <Filter>Source Files\prolix\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\common\include\xString.h">
+      <Filter>Source Files\prolix\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="prolix\common\include\xVector.h">
+      <Filter>Source Files\prolix\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libDriver.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\battle\include\cAdversary.h">
+      <Filter>Source Files\game\battle\include</Filter>
+    </ClInclude>
+    <ClInclude Include="game\battle\include\cBattle.h">
+      <Filter>Source Files\game\battle\include</Filter>
+    </ClInclude>
+    <ClInclude Include="game\battle\include\cBattleHud.h">
+      <Filter>Source Files\game\battle\include</Filter>
+    </ClInclude>
+    <ClInclude Include="game\battle\include\cBattleHudMgr.h">
+      <Filter>Source Files\game\battle\include</Filter>
+    </ClInclude>
+    <ClInclude Include="game\battle\include\cBattleStage.h">
+      <Filter>Source Files\game\battle\include</Filter>
+    </ClInclude>
+    <ClInclude Include="game\battle\include\cCombatant.h">
+      <Filter>Source Files\game\battle\include</Filter>
+    </ClInclude>
+    <ClInclude Include="game\battle\include\cComrade.h">
+      <Filter>Source Files\game\battle\include</Filter>
+    </ClInclude>
+    <ClInclude Include="game\battle\include\cEffect.h">
+      <Filter>Source Files\game\battle\include</Filter>
+    </ClInclude>
+    <ClInclude Include="game\battle\include\cMetasyncGauge.h">
+      <Filter>Source Files\game\battle\include</Filter>
+    </ClInclude>
+    <ClInclude Include="game\battle\lib\libBattle.h">
+      <Filter>Source Files\game\battle\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="game\rpg\include\cActorDef.h">
+      <Filter>Source Files\game\rpg\include</Filter>
+    </ClInclude>
+    <ClInclude Include="game\rpg\include\cAffinitiesDef.h">
+      <Filter>Source Files\game\rpg\include</Filter>
+    </ClInclude>
+    <ClInclude Include="game\rpg\include\cAilmentsDef.h">
+      <Filter>Source Files\game\rpg\include</Filter>
+    </ClInclude>
+    <ClInclude Include="game\rpg\include\cAttributesDef.h">
+      <Filter>Source Files\game\rpg\include</Filter>
+    </ClInclude>
+    <ClInclude Include="game\rpg\include\cGaugeDef.h">
+      <Filter>Source Files\game\rpg\include</Filter>
+    </ClInclude>
+    <ClInclude Include="game\rpg\include\cItemsDef.h">
+      <Filter>Source Files\game\rpg\include</Filter>
+    </ClInclude>
+    <ClInclude Include="game\rpg\include\cSkillsDef.h">
+      <Filter>Source Files\game\rpg\include</Filter>
+    </ClInclude>
+    <ClInclude Include="game\rpg\lib\libRpg.h">
+      <Filter>Source Files\game\rpg\lib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="prolix\interface\src\cCursor.cpp">
+      <Filter>Source Files\prolix\interface\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\interface\src\cmpButton.cpp">
+      <Filter>Source Files\prolix\interface\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\interface\src\cmpDialogueBox.cpp">
+      <Filter>Source Files\prolix\interface\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\interface\src\cmpOptionList.cpp">
+      <Filter>Source Files\prolix\interface\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\interface\src\cmpTextbox.cpp">
+      <Filter>Source Files\prolix\interface\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\interface\src\cmpWindow.cpp">
+      <Filter>Source Files\prolix\interface\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\framework\src\cAssetMgr.cpp">
+      <Filter>Source Files\prolix\framework\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\framework\src\cGame.cpp">
+      <Filter>Source Files\prolix\framework\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\framework\src\cGameDataMgr.cpp">
+      <Filter>Source Files\prolix\framework\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\framework\src\cLocMgr.cpp">
+      <Filter>Source Files\prolix\framework\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\framework\src\cLogMgr.cpp">
+      <Filter>Source Files\prolix\framework\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\framework\src\cPlayerDataMgr.cpp">
+      <Filter>Source Files\prolix\framework\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\framework\src\cPlayerPreferenceMgr.cpp">
+      <Filter>Source Files\prolix\framework\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\framework\src\cTweenMgr.cpp">
+      <Filter>Source Files\prolix\framework\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\engine\src\PrlxEngine.cpp">
+      <Filter>Source Files\prolix\engine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\engine\src\PrlxGraphics.cpp">
+      <Filter>Source Files\prolix\engine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\engine\src\PrlxInput.cpp">
+      <Filter>Source Files\prolix\engine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\engine\src\PrlxMixer.cpp">
+      <Filter>Source Files\prolix\engine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\engine\src\PrlxPhysics.cpp">
+      <Filter>Source Files\prolix\engine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\engine\src\PrlxText.cpp">
+      <Filter>Source Files\prolix\engine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\common\src\cAnimation.cpp">
+      <Filter>Source Files\prolix\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\common\src\cBaseObject.cpp">
+      <Filter>Source Files\prolix\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\common\src\cCartesian.cpp">
+      <Filter>Source Files\prolix\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\common\src\cEntity.cpp">
+      <Filter>Source Files\prolix\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\common\src\cFont.cpp">
+      <Filter>Source Files\prolix\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\common\src\cLabel.cpp">
+      <Filter>Source Files\prolix\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\common\src\cResources.cpp">
+      <Filter>Source Files\prolix\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\common\src\cSprite.cpp">
+      <Filter>Source Files\prolix\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\common\src\cTexture.cpp">
+      <Filter>Source Files\prolix\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\common\src\cTimer.cpp">
+      <Filter>Source Files\prolix\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\common\src\cTween.cpp">
+      <Filter>Source Files\prolix\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\common\src\cUrl.cpp">
+      <Filter>Source Files\prolix\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\common\src\xDraw.cpp">
+      <Filter>Source Files\prolix\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\common\src\xRandom.cpp">
+      <Filter>Source Files\prolix\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\common\src\xString.cpp">
+      <Filter>Source Files\prolix\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="prolix\common\src\xVector.cpp">
+      <Filter>Source Files\prolix\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="appDriver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\battle\src\cAdversary.cpp">
+      <Filter>Source Files\game\battle\src</Filter>
+    </ClCompile>
+    <ClCompile Include="game\battle\src\cBattle.cpp">
+      <Filter>Source Files\game\battle\src</Filter>
+    </ClCompile>
+    <ClCompile Include="game\battle\src\cBattleHud.cpp">
+      <Filter>Source Files\game\battle\src</Filter>
+    </ClCompile>
+    <ClCompile Include="game\battle\src\cBattleHudMgr.cpp">
+      <Filter>Source Files\game\battle\src</Filter>
+    </ClCompile>
+    <ClCompile Include="game\battle\src\cBattleStage.cpp">
+      <Filter>Source Files\game\battle\src</Filter>
+    </ClCompile>
+    <ClCompile Include="game\battle\src\cCombatant.cpp">
+      <Filter>Source Files\game\battle\src</Filter>
+    </ClCompile>
+    <ClCompile Include="game\battle\src\cComrade.cpp">
+      <Filter>Source Files\game\battle\src</Filter>
+    </ClCompile>
+    <ClCompile Include="game\battle\src\cEffect.cpp">
+      <Filter>Source Files\game\battle\src</Filter>
+    </ClCompile>
+    <ClCompile Include="game\battle\src\cMetasyncGauge.cpp">
+      <Filter>Source Files\game\battle\src</Filter>
+    </ClCompile>
+    <ClCompile Include="game\rpg\src\cActorDef.cpp">
+      <Filter>Source Files\game\rpg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="game\rpg\src\cAffinitiesDef.cpp">
+      <Filter>Source Files\game\rpg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="game\rpg\src\cAilmentsDef.cpp">
+      <Filter>Source Files\game\rpg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="game\rpg\src\cAttributesDef.cpp">
+      <Filter>Source Files\game\rpg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="game\rpg\src\cGaugeDef.cpp">
+      <Filter>Source Files\game\rpg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="game\rpg\src\cItemsDef.cpp">
+      <Filter>Source Files\game\rpg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="game\rpg\src\cSkillsDef.cpp">
+      <Filter>Source Files\game\rpg\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,37 @@
+(12:35:21)I: OVERSEER log manager initalized
+(12:35:21)I: Set log verbosity: VERBOSE
+(12:35:21)I: Logging printed to game/overseer.log
+(12:35:21)I: PROLIX OpenGL API initialized
+(12:35:21)I: Texture Stack initialized
+(12:35:21)I: PROLIX Input Engine initalized
+(12:35:21)I: PROLIX Text Engine initalized
+(12:35:21)I: Font Stack initialized
+(12:35:21)I: Text Stack initialized
+(12:35:21)I: PROLIX Physics Engine initalized
+(12:35:21)I: PROLIX Mixer Engine initialized
+(12:35:21)I: BGM Stack initialized
+(12:35:21)I: SFX Stack initialized
+(12:35:21)I: PROLIX Engine components initalized successfully
+(12:35:21)I: Started Growth Modeller 1.0 application
+(12:35:21)V: Aliased '../resources/sandbox/font/droid.ttf' to 'title'
+(12:35:21)V: Aliased '../resources/sandbox/font/droid.ttf' to 'default'
+(12:35:21)V: Created an interface window
+(12:35:21)V: Created a textbox of type interface window
+(12:35:21)V: Created an interface window
+(12:35:21)V: Created a textbox of type interface window
+(12:35:21)V: Created an interface window
+(250,540)
+(250,540)
+(250,540)
+(274,535)
+(342,527)
+(431,496)
+(506,450)
+(570,380)
+(627,316)
+(663,260)
+(677,221)
+(685,196)
+(689,180)
+(690,174)
+(690,174)
